@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: todo-app
-        image: your-registry/php-todo-app:latest
+        image: todo-app:latest
         ports:
         - containerPort: 80
         env:
